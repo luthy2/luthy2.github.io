@@ -12,33 +12,65 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
     <style>
-      body {font-family: Abel;}
+      body {
+        font-family: Lora;
+        line-height:200%;
+        background-color: #f8f8f8;
+      }
+      h1{
+        font-size:64px;
+        font-weight:200;
+      }
+      h2{
+        font-size:48px;
+        font-weight:150;
+      }
+      .main{
+        font-size:18px;
+        line-height: 250%;
+      }
+      img {
+        width:100%;
+      }
+      .pad-reset{
+        padding:0;
+      }
     </style>
 
   </head>
 
   <body>
-    <div class = "container">
-      <div class = "row" style="padding-top:150px">
-        <h1 class = "text-center">hello, world.</h1>
-        <ul class = "list-inline text-center">
-          <li><a href = "https://www.github.com/luthy2" target = "_blank" rel="noopener noreferrer">github</a></li>
-          <li><a href  = "https://www.twitter.com/thebigjl" target ="_blank" rel="noopener noreferrer">twitter</a></li>
-          <li><a href ="me">me</a></li>
-          <li>luthy 2 at gmail dot com</li>
-        </ul>
+    <div class = "container-fluid">
+      <div class="row">
+        <div class="col-xs-12 text-align text-center" style="padding-top:45px;">
+          <h1>Justin Luthy</h1>
+          <ul class = "list-inline text-center">
+            <li><a href = "projects"><h4>projects</h4></a></li>
+            <li><a href ="resume"><h4>resumé</h4></a></li>
+            <li><a href= "contact"><h4>contact</h4></a></li>
+          </ul>
+        </div>
       </div>
-      <div class = "row" style = "padding-top:100px">
-        <h3 class = "text-center">Projects</h3>
-        <ul class ="list-unstyled text-center">
-          <li>
-            <a href = "http://zippmsg.com" target="_blank" rel="noopener noreferrer"><h4>Zipp </a><small>A social reading list, and link sharing app</small></h4>
-          </li>
-        </ul>
+      <div class="row pad-reset" style="padding-top:55px;">
+        <img src= "justinluthy.jpg">
+      </div>
+      <div class = "row" style="padding-top:75px">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class = "text-center" style="padding-bottom:50px;">Hello, World.</h2>
+          <p class="main">
+            My name is Justin Luthy, and I'm a professional soccer player, and developer. After graduating from Boston College in 2013, I moved to Portland to play soccer.
+            Suddenly I found myself with hours of free time. At the encouragement of some friends, I decided to teach myself to code.
+          </p>
+          <p class="main">
+            I have always been interested in startups, apps, and the web so it was exciting to start to learn about how these
+            products and companies are built. Over the past three years I've learned a lot about topics ranging from design and usability,
+            to fundamentals of CS and building large software products, and I'm looking forward to learning even more.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
-
 </html>
