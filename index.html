@@ -32,11 +32,23 @@
         font-size:18px;
         line-height: 250%;
       }
-      img {
-        width:100%;
+      #main-image{
+        width:70%;
+        display: block;
+        margin: 0 auto;
       }
       .pad-reset{
         padding:0;
+      }
+      .navigation-text{
+        vertical-align:middle;
+      }
+      .navigation-text:hover{
+        text-decoration:none;
+      }
+      .navigation-icon{
+        display:inline-block;
+        color:gray;
       }
     </style>
 
@@ -48,28 +60,17 @@
         <div class="col-xs-12 text-align text-center" style="padding-top:45px;">
           <h1>Justin Luthy</h1>
           <ul class = "list-inline text-center">
-            <li><a href= "contact"><h4>contact</h4></a></li>
-            <li><a href = "projects"><h4>projects</h4></a></li>
-            <li><a href ="http://luthy2.github.io/resume" target="_blank" rel="noopener noreferrer"><h4>resumé</h4></a></li>
+            <li><a href= "mailto:luthy2@Gmail.com"><img class="navigation-icon" src="envelope-back-outline-opened-email-interface-symbol.svg" style="height:1em"></a></li>
+            <li><a href = "https://www.github.com/luthy2" target="_blank" rel="noopener noreferrer"><img class="navigation-icon" src="github-logo.svg" style="height:1em"></a></li>
+            <li><a href = "https://www.linkedin.com/in/justinluthy" target="_blank" rel="noopener noreferrer"><img class="navigation-icon" src="linkedin-logo.svg" style="height:1em"></a></li>
+            <li><a href = "https://www.twitter.com/thebigjl" target="_blank" rel="noopener noreferrer"><img class="navigation-icon" src="twitter-logo-shape.svg" style="height:1em;"></a></li>
+            <li><a href ="resume" class="navigation-text">resumé</a></li>
+            <li><a href ="about" class="navigation-text">about me</a></li>
           </ul>
         </div>
       </div>
       <div class="row pad-reset" style="padding-top:55px;">
-        <img src= "justinluthy.JPG">
-      </div>
-      <div class = "row" style="padding-top:75px; padding-bottom:100px;">
-        <div class="col-md-6 col-md-offset-3">
-          <h2 class = "text-center" style="padding-bottom:50px;">Hello, World.</h2>
-          <p class="main">
-            My name is Justin Luthy, and I'm a professional soccer player, and developer. After graduating from Boston College in 2013, I moved to Portland to play soccer.
-            Suddenly I found myself with hours of free time. At the encouragement of some friends, I decided to teach myself to code.
-          </p>
-          <p class="main">
-            I have always been interested in startups, apps, and the web so it was exciting to start to learn about how these
-            products and companies are built. Over the past three years I've learned a lot about topics ranging from design and usability,
-            to fundamentals of CS, and building large software products, and I'm looking forward to learning even more.
-          </p>
-        </div>
+        <img id="main-image" src= "justinluthy.JPG">
       </div>
     </div>
   </body>
