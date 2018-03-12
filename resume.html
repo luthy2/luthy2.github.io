@@ -18,23 +18,11 @@
     <style>
       body {
         font-family: Lora;
-        line-height:200%;
         background-color: white;
       }
       h1{
 
         position:relative;
-      }
-      .main{
-        font-size:18px;
-        line-height: 250%;
-      }
-      img {
-        height:50px;
-        border-radius:50%;
-        float:left;
-        margin-top:10px;
-        margin-right:10px
       }
 
       .pad-reset{
@@ -43,47 +31,100 @@
       .header{
         display:inline-block;
       }
+      .info-col{
+        padding:15px;
+      }
     </style>
 
   </head>
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 headers">
-        <h2>Justin Luthy</h2>
+      <div class="col-md-4 col-md-offset-2">
+        <h1>Justin Luthy</h1>
+      </div>
+        <div class="col-md-4 col-md-offset-2 info-col">
+        7034 Violet Veil Ct. <br>
+        Dublin, OH 43016<br>
+        <em>Open to Relocation</em>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 info-col">
+        <ul class="list-inline">
+          <li class="list-inline-item">(919)-627-4051</li>
+          <li class="list-inline-item"><a href="mailto:luthy2@gmail.com">luthy2@gmail.com</a></li>
+          <li class="list-inline-item"><a href = "https://luthy2.github.io" target="_blank" rel="noopener noreferrer">luthy2.github.io</a></li>
+          <li class="list-nline-item"><a href= "https://www.linkedin.com/in/justinluthy" target="_blank" rel="noopener noreferrer">linkedin.com/in/justinluthy</a></li>
+        </ul>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-        <ul class="list-inline">
-          <li><a href="mailto:luthy2@gmail.com" target="_blank" rel="noopener noreferrer">luthy2@gmail.com</a>
-          </li><a href = "https://www.twitter.com/thebigjl" target="_blank" rel="noopener noreferrer">@thebigjl</a></li>
-          <li><a href="https://luthy2.github.io" target="_blank" rel="noopener noreferrer">luthy2.github.io</a></li>
-          <li><a href="https://www.github.com/luthy2" target="_blank" rel="noopener noreferrer">github.com/luthy2</a></li>
-          <li><a href ="Justin-Luthy-Resume.pdf" target="_blank" rel="noopener noreferrer">pdf</a></li>
+      <div class="col-md-2 col-md-offset-2 info-col"><em>Summary</em></div>
+      <div class="col-md-6 info-col">Former professional athlete transitioning into a career in tech. Curious, self-motivated learner. Business school graduate and self taught programmer. World traveler and future startup founder.  </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 info-col"><em>Education</em></div>
+      <div class="col-md-6 info-col">
+        <p><b>Boston College Carroll School of Management (Sept. 2009 - May 2013)</b>
+        <br>B.S. Management, concentrations  Finance & Marketing</p>
+        <ul>
+          <li>
+            Balanced classwork, and a full practice schedule to graduate with an in-major 3.3 GPA from a finance program consistently ranked in the top 15 by U.S. News & World Report.
+          </li>
+          <li>
+            Attended on a full athletic scholarship. Four year Men’s Varsity Soccer starter, earned both school and conference athletic awards.
+          </li>
+          <li>
+            Represented the Men’s Soccer team in the Student-Athlete Advisory Committee, a group that advocates for Student-Athlete welfare, and organizes community service projects.
+          </li>
         </ul>
-        <hr>
-        <p>
-          <h3>Education</h3>
-          <p>Boston College Carroll School of Management <small>'13</small> </p>
-          <p>B.S. Finance & Marketing</p>
-        </p><br>
-        <p>
-          <h3>Experience</h3>
-          <p>Professional Soccer Player <small>Jan '14- Present</small></p>
-        </p><br>
-        <p>
-          <h3>Skills</h3>
-          <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML5/CSS3</li>
-            <li>git</li>
-            <li>Excel</li>
-            <li>Financial Modeling</li>
-          </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 info-col"><em>Experience</em></div>
+      <div class="col-md-6 info-col">
+        <p><b>Colorado Springs Switchbacks (Feb. 2017 - Oct. 2017)</b><br>
+        Professional Soccer Player
+        </p>
+        <p><b>Portland Timbers (Jan. 2014 - Oct. 2016)</b><br>
+        Professional Soccer Player for Portland Timbers 2
         </p>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 info-col"><em>Skills</em></div>
+      <div class="col-md-6 info-col">
+        <p><b>Languages</b><br>Python (advanced), JavaScript (intermediate), HTML5/CSS3 (intermediate), SQL (familiar)</p>
+        <p><b>Technologies</b><br>Flask (advanced), React (intermediate), Angular (intermediate), REST (intermediate), HTTP (intermediate), Postgres (familiar), Redis (familiar), Memcached (familar)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 info-col"><em>Projects</em></div>
+      <div class="col-md-6 info-col">
+        <p>
+          <b>Zipp (2015-2017)</b><br>
+          Designed, built, and deployed a bookmarking and link sharing web app.
+        </p>
+        <ul>
+          <li>Implemented core application logic with python, and flask. Built front end application with a mix of server-side templating and Angular 1.x utilizing REST endpoints and AJAX operations.</li>
+          <li>Analyzed performance bottlenecks, and implemented caching, asynchronous operations with Redis and Memcached to significantly improve page load times.</li>
+          <li>Deployed to Heroku and Integrated with 3rd party APIs for rich link previews, analytics, Twitter sign-in, and email notifications.</li>
+        </ul>
+        <p>
+          <b>Zipp 2.0 (2017-2018)</b></br>
+          A rewrite of the previous project, with updated technology choices and application design.
+        </p>
+        <ul>
+          <li>API first design with RESTful endpoints built python, and flask.</li>
+          <li>Single Page Application front end built with React.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 info-col"><em>References</em></div>
+      <div class="col-md-6 info-col">Available on request</div>
     </div>
   </div>
   <script>
