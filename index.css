@@ -1,0 +1,18 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, "Apple Color Emoji", Arial, sans-serif;
+  /* line-height:200%; */
+  background-color: #f8f8f8;
+}
+
+.main {
+  font-size:18px;
+  line-height: 250%;
+}
+.title-label {
+  color: gray;
+  font-size: 24px;
+}
+
+.link-title {
+  color: Black;
+}
